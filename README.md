@@ -61,11 +61,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Screenshots
 
-Coming soon  
+![image](https://github.com/Rclarkeweb/garden-bird-counter/assets/108008511/59164ccf-4823-4641-97af-4fb9c35b3309) 
 
 ## View it Live
 
-Coming soon  
+[https://rclarkeweb.github.io/garden-bird-counter/](https://rclarkeweb.github.io/garden-bird-counter/)  
 
 ## Usage and license
 
