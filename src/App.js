@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
+import Footer from './Footer.js';
+import Card from './Card.js';
+import birdData from "./BirdData.js";
+
+
+const createCounters = (counter) => {
+  return (
+    < Card key={counter.id} bird={counter.bird} img={counter.img} />
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container overflow-hidden px-2 text-center">
+      < Header />
+      <div className="row row-cols-2 row-cols-md-4 g-4 py-4">
+        {birdData.map(createCounters)}
+      </div>
+      < Footer />
     </div>
   );
 }
